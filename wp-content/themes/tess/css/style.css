@@ -1,0 +1,626 @@
+body {
+    font-family: Verdana, Segoe, sans-serif;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    color: #000
+}
+p {
+    margin: 10px 0
+}
+h2 {
+    font-size: 32px;
+    margin: 20px 0;
+    text-align: center
+}
+hr {
+    height: 1px;
+    background-color: #333;
+    opacity: 0.4
+}
+.product-page h1,
+.contactpage h1,
+article h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+    margin: 30px 0 20px 0;
+    font-weight: normal;
+    text-align: left
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1130px;
+    min-width: 287px;
+    width: 89%
+}
+.clearfix {
+    clear: both
+}
+.header-wrapper {
+    width: 100%;
+    position: relative;
+    height: 180px
+}
+#menu {
+    height: 180px;
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5)
+}
+#menu:after {
+    clear: both
+}
+.header-top-area {
+    background: transparent;
+    display: inline
+}
+.big-container {
+    padding-left: 16.299%;
+    padding-top: 5px
+}
+.top-links {
+    float: left;
+    width: 100%;
+    font-size: 16px
+}
+.top-links ul li {
+    display: inline;
+    text-transform: uppercase
+}
+.top-links-left ul li,
+.tess-leather {
+    padding: 5px 1.3%;
+    margin-right: 1.5%;
+    float: left
+}
+.top-links-left ul li:hover {
+    color: #fff;
+    background: #333333
+}
+.tess-leather {
+    color: #fff;
+    background: #333333;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+.top-links-right {
+    float: right;
+    margin-top: 3px;
+    width: 37.216%
+}
+.lang select {
+    float: left;
+    width: 33%;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 3px 0
+}
+.lang select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000
+}
+.lang select:focus {
+    outline: none
+}
+.search-content .page-title {
+    font-size: 32px;
+    font-weight: normal
+}
+.search-content .woocommerce-breadcrumb {
+    display: none
+}
+.search-container {
+    float: right;
+    width: 55%;
+    height: 25px;
+    position: relative
+}
+.search-container input {
+    float: right;
+    width: 79%;
+    background: #e7e7e7;
+    height: 25px;
+    padding: 0 5px
+}
+.search-container input:focus {
+    outline: none
+}
+.screen-reader-text {
+    position: relative;
+    height: 21px;
+    cursor: pointer
+}
+.search-container label {
+    position: relative
+}
+.search-container img {
+    width: 22px;
+    position: relative
+}
+:focus::-webkit-input-placeholder {
+    color: transparent
+}
+:focus::-moz-placeholder {
+    color: transparent
+}
+:focus:-moz-placeholder {
+    color: transparent
+}
+:focus:-ms-input-placeholder {
+    color: transparent
+}
+.alert-error {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 100px
+}
+.mobile-nav,
+.open-menu-link {
+    display: none
+}
+.logo {
+    float: left;
+    width: 11.718%;
+    height: 101px;
+    background: url(../img/logo.svg) no-repeat;
+    background-size: 100%;
+    -webkit-transition: background-size 0.1s ease;
+    -moz-transition: background-size 0.1s ease;
+    -ms-transition: background-size 0.1s ease;
+    -o-transition: background-size 0.1s ease;
+    transition: background-size 0.1s ease
+}
+.primary-nav {
+    float: right;
+    background: #fff;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: -23px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif
+}
+.primary-nav ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: inline;
+    float: left
+}
+.primary-nav ul li {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: top
+}
+.primary-nav a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    float: right;
+    padding: 12px 23px
+}
+.primary-nav li:hover {
+    background: #333
+}
+.primary-nav li:hover a {
+    color: #fff
+}
+.primary-nav a.last {
+    padding-right: 0
+}
+.primary-nav ul li ul {
+    left: 0;
+    display: none;
+    position: absolute;
+    top: 60px;
+    width: 96%;
+    padding: 2%;
+    background: #fff;
+    border: solid 1px #333;
+    height: 276px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    z-index: 200
+}
+.primary-nav li:hover ul {
+    display: block
+}
+.primary-nav ul li ul li {
+    position: relative;
+    width: 20%;
+    float: left
+}
+.primary-nav ul li ul li a {
+    color: #000 !important
+}
+.primary-nav ul li ul li:hover {
+    background: transparent !important
+}
+.primary-nav ul li ul li ul {
+    position: absolute;
+    padding: 0;
+    top: 0;
+    left: auto;
+    float: left;
+    display: block;
+    width: 100%;
+    border: none
+}
+.primary-nav ul li ul li ul li {
+    float: none;
+    display: block !important;
+    height: 24px;
+    text-align: left;
+    padding: 10px 0;
+    width: 100%
+}
+.primary-nav ul li ul li ul li:hover {
+    background: transparent !important
+}
+.primary-nav ul li ul li ul li:hover a {
+    color: #fff !important;
+    background: #333 !important
+}
+.primary-nav ul li ul li ul li a {
+    padding: 10px;
+    text-decoration: uppercase;
+    float: none;
+    font-size: 18px
+}
+.primary-nav ul li ul li:nth-child(n+3) ul li a {
+    font-size: 14px !important;
+    padding: 5px !important
+}
+.primary-nav ul li ul li:nth-child(n+3) ul li {
+    height: 20px;
+    padding: 5px 0 !important;
+    width: 100%
+}
+.primary-nav ul li ul li:nth-child(n+3) ul {
+    padding: 5px 0
+}
+.header-wrapper.fixed {
+    height: 120px
+}
+.fixed #menu {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: auto
+}
+.fixed #menu .header-top-area {
+    display: none
+}
+.fixed #menu .header-button-area,
+.fixed #menu .primary-nav ul li,
+.fixed #menu .logo,
+.fixed #menu {
+    height: 40px
+}
+.fixed #menu .logo {
+    background: url(../img/logo.svg) no-repeat;
+    width: 45px;
+    background-size: 45px;
+    background-position: left center
+}
+.fixed #menu .primary-nav {
+    margin-top: 0
+}
+.fixed #menu .primary-nav a {
+    font-size: 25px;
+    padding: 4px 38px
+}
+.fixed #menu .primary-nav ul li ul {
+    top: 40px
+}
+.fixed #menu .primary-nav ul li ul li ul {
+    top: 0
+}
+.fixed #menu .primary-nav ul li ul li ul li {
+    padding: 10px 0;
+    height: 24px
+}
+.fixed #menu .primary-nav ul li ul li a {
+    padding: 10px;
+    font-size: 18px
+}
+.fixed #menu .primary-nav ul li ul li:nth-child(n+3) ul li {
+    height: 20px
+}
+main {
+    cursor: default;
+    padding-bottom: 40px;
+    z-index: 2;
+    position: relative;
+    background: #fff
+}
+article {
+    height: 100%
+}
+.homepage-content {
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    margin-top: -5px
+}
+.homepage-content h1 {
+    margin-top: 40px;
+    font-size: 68px;
+    text-align: left;
+    font-weight: normal;
+    text-transform: none
+}
+.homepage-content p {
+    font-size: 48px
+}
+.featured-image img {
+    width: 100%;
+    height: auto
+}
+.main-category-lists ul {
+    margin-top: 40px;
+    width: 20%;
+    float: left;
+    vertical-align: top
+}
+.main-category-lists ul {
+    margin-left: -10px
+}
+.main-category-lists ul li {
+    padding: 10px 0
+}
+.main-category-lists ul li a {
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 22px
+}
+.main-category-lists ul li a:hover {
+    background: #333;
+    color: #fff
+}
+.main-category-lists ul:nth-child(n+3) a {
+    font-size: 17px;
+    padding: 5px
+}
+.main-category-lists ul:nth-child(n+3) li {
+    padding: 5px 0
+}
+.main-category-lists ul:nth-child(n+3) {
+    padding: 5px 0
+}
+footer {
+    padding-top: 44px;
+    padding-bottom: 115px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif
+}
+footer ul,
+footer p {
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: top
+}
+.footer-widgets ul:first-child a {
+    padding: 3px;
+    margin-left: -3px
+}
+.footer-widgets ul:first-child a:hover {
+    color: #fff;
+    background: #333
+}
+footer h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-size: 24px
+}
+footer p {
+    margin: 0
+}
+.widget-wrapper {
+    width: 44%;
+    float: left
+}
+.widget-wrapper:first-child {
+    width: 30%;
+    float: left
+}
+.footer-list-social {
+    text-align: right;
+    width: 25%;
+    float: left;
+    margin-top: 100px
+}
+.footer-list-social li {
+    position: relative;
+    display: inline-block;
+    float: right;
+    padding: 5px
+}
+.woocommerce-breadcrumb {
+    text-transform: capitalize;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    margin-bottom: 30px
+}
+.product-page {
+    padding-top: 20px;
+    font-family: Verdana, Segoe, sans-serif
+}
+.product-page h1 {
+    text-align: center
+}
+.count{
+	background:none;
+}
+.term-description {
+    margin: 15px 0
+}
+.select-materials {
+    font-size: 16px;
+    float: right;
+    margin-top: -54px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif
+}
+.dropdown_layered_nav_material {
+    cursor: pointer
+}
+.select-materials select {
+    padding: 0 0 0 5px;
+    text-align: left
+}
+.select-materials select:focus {
+    outline: none
+}
+.select-materials span {
+    font-size: 17px;
+    margin: 0 10px
+}
+.products li {
+    vertical-align: top;
+    display: inline-block;
+    width: 24%;
+    margin: 15px 0;
+    text-align: center
+}
+.products li img {
+    width: 96%;
+    height: auto
+}
+.products h3 {
+    margin: 10px 0 5px 0
+}
+.products span {
+    font-size: 18px
+}
+.products-list p.category {
+    font-size: 14px
+}
+h1.product_title {
+    font-size: 24px;
+    text-align: left;
+    margin: 0;
+    font-weight: normal
+}
+p.price {
+    margin: 15px 0;
+    font-size: 35px;
+    opacity: 0.7
+}
+#tab-description {
+    margin: 30px 0
+}
+#tab-description h2 {
+    display: none
+}
+#tab-additional_information {
+    text-transform: capitalize;
+    margin: 15px 0
+}
+#tab-additional_information th {
+    font-size: 16px;
+    width: 100px;
+    margin: 10px 0
+}
+#tab-additional_information td p {
+    font-size: 18px;
+    margin-left: 5px;
+    margin: 10px 0
+}
+.panel,
+.entry-content,
+.summary.entry-summary {
+    width: 58%;
+    float: right;
+    display: block !important
+}
+p.woocommerce-info {
+    margin: 80px auto;
+    width: 100%;
+    text-align: center;
+    font-weight: lighter
+}
+.gallery_container {
+    width: 38%;
+    float: left
+}
+.ad-image-wrapper {
+    width: 100% !important;
+    height: 600px !important
+}
+.ad-next,
+.ad-prev,
+.icon_zoom,
+.ad-slideshow-start-slide,
+.ad-slideshow-stop-slide,
+.slide-ctrl,
+.ad-back,
+.ad-forward {
+    display: none !important;
+    cursor: default !important
+}
+.product_meta {
+    display: none
+}
+.woocommerce-tabs .tabs {
+    display: none
+}
+#tab-additional_information h2 {
+    display: none
+}
+.contactpage h1 {
+    text-align: left
+}
+.googlemaps {
+    width: 100%;
+    position: relative;
+    height: 450px
+}
+.googlemaps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important
+}
+.page ul:first-child {
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 24px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif
+}
+.page ul:first-child li {
+    display: inline;
+    padding: 15px
+}
+.page ul li:first-child {
+    margin-left: -15px
+}
+.page ul:first-child li:hover {
+    color: #fff;
+    background: #333
+}
+.post-thumbnail {
+    width: 35%;
+    float: left
+}
+.post-thumbnail img {
+    width: 100%;
+    height: auto
+}
+.post-thumbnail,
+.post-preview-text {
+    margin-bottom: 40px
+}
+.post-preview-text {
+    width: 63%;
+    float: right
+}
+.post-preview-text h1 {
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: left
+}
